@@ -1,0 +1,65 @@
+@keyframes animacao-caixa{
+
+    from{
+        background-image:linear-gradient(to left, rgba(0, 140, 255, 0), rgba(0, 87, 128, 0));
+        border-radius: 0px;
+    }
+
+    to{
+        background-image: linear-gradient(to left, rgba(165, 27, 27, 0), rgba(128, 43, 0, 0));
+        border-radius: 300px;
+    }
+}
+
+
+
+@-webkit-keyframes animacao-caixa{
+
+    from{
+        background-image:linear-gradient(to left, rgba(0, 140, 255, 0.184), rgba(0, 87, 128, 0.364));
+    }
+
+    to{
+        background-image: linear-gradient(to left, rgba(165, 27, 27, 0), rgba(128, 43, 0, 0));
+    } }
+
+
+@-moz-keyframes animacao-caixa{
+
+    from{
+        background-image:linear-gradient(to left, rgba(0, 140, 255, 0.184), rgba(0, 87, 128, 0.364));
+    }
+
+    to{
+        background-image: linear-gradient(to left, rgba(165, 27, 27, 0), rgba(128, 43, 0, 0));
+    }
+
+
+}
+
+
+
+@-o-keyframes animacao-caixa{
+
+    from{
+        background-image:linear-gradient(to left, rgba(0, 140, 255, 0.184), rgba(0, 87, 128, 0.364));
+    }
+
+    to{
+        background-image: linear-gradient(to left, rgba(165, 27, 27, 0), rgbrgba(128, 43, 0, 0))
+    }
+}
+
+
+
+#box:hover{
+
+    margin: auto;
+    background-color: rgba(1, 121, 226, 0.51);
+    width: 600px;
+    height: 300px;
+    border: 5px solid rgba(255, 255, 255, 0.097);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    margin-bottom: 40px;
+    transition: width 2s, background 1s, border 5s;
+}
